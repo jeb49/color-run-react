@@ -7,7 +7,7 @@ export default function Faq() {
     return (
         <>
             <h2>Frequnetly Asked Questions</h2>
-
+            <br></br>
             <Accordion defaultActiveKey="0">
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="1">
