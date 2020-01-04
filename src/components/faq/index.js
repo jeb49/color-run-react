@@ -5,11 +5,16 @@ import Card from 'react-bootstrap/Card'
 // import Button from 'react-bootstrap/Button'
 export default function Faq() {
     return (
-        <>
-            <h2>Frequnetly Asked Questions</h2>
-            <br></br>
+        <>  
+        <div class = "container">
+            <div class = "row justify-content-md-center">
+            <div class = "col ">
+                <h2>Frequnetly Asked Questions</h2>
+            </div>
+            </div>
+            <div>
             <Accordion defaultActiveKey="0">
-                <Card>
+                <Card class = "col col-lg-2">
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                     When and where?
                     </Accordion.Toggle>
@@ -17,7 +22,7 @@ export default function Faq() {
                     <Card.Body>This year’s Color Fun Run will start at the Community Arts Center in East Brunswick on June 8th, 2018. The address to the Community Arts Center is 721 Cranbury Road, East Brunswick N.J. Parking is available at this site. Please do not park at Heavenly Farms. Participants will run/walk through a course that loops through Heavenly Farms and concludes back at the Community Arts Center.</Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card class = "col col-lg-2">
                     <Accordion.Toggle as={Card.Header} eventKey="2"> What is the course like? </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body>
@@ -26,7 +31,7 @@ export default function Faq() {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card class = "col">
                     <Accordion.Toggle as={Card.Header} eventKey="3"> What time should I arrive? </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
                         <Card.Body>
@@ -34,7 +39,7 @@ export default function Faq() {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
+                <Card class = "col col-lg-2">
                     <Accordion.Toggle as={Card.Header} eventKey="4"> What is the course like? </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
                         <Card.Body>
@@ -74,8 +79,9 @@ export default function Faq() {
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-
             </Accordion>
+            </div>
+            </div>
         </>
     );
 

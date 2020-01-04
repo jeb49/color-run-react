@@ -1,59 +1,25 @@
 import React, { useState } from 'react';
+import Slideshow from './slideshow'
 import Carousel from 'react-bootstrap/Carousel'
 import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+
 import CardDeck from 'react-bootstrap/CardDeck'
+import { Jumbotron } from 'react-bootstrap';
  
   
 export default function Home() {
-    const [index, setIndex] = useState(0);
-    const [direction, setDirection] = useState(null);
-  
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-      setDirection(e.direction);
-    };
+
   
   
     return (
     <>
-            {/* <h2>Home</h2> */}
-    <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
-    <Carousel.Item>
-        <img
-        className="d-block w-100"
-        src={require("../images/one.jpg")}
-        alt="First slide"
-        />
-        <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-        <img
-        className="d-block w-100"
-        src={require("../images/two.jpg")}
-        alt="Second slide"
-        />
+            <Slideshow></Slideshow>
+            <div class = "container">
+            <div class = "row justify-content-md-center">
+            <div class = "col ">
 
-        <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-        <img
-        className="d-block w-100"
-        src={require("../images/three.jpg")}
-        alt="Third slide"
-        />
-
-        <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-    </Carousel.Item>
-    </Carousel>
+   
             <br></br>
                 <CardDeck>
                 <Card>
@@ -136,6 +102,10 @@ export default function Home() {
     </Card>
 
     </CardDeck>
+    </div>
+    </div>
+    </div>
+
     </>
     );
 }

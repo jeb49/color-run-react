@@ -3,6 +3,9 @@ import React from 'react';
 export default function About() {
     return ( 
     <>
+    <div class = "container">
+    <div class = "row justify-content-md-center">
+    <div class = "col ">
     <h2>About</h2>
         <p>A Color Fun Run/Walk is an fun one day event. 
             Participants are doused with colored powder as they navigate the course.  
@@ -24,6 +27,9 @@ export default function About() {
             Would you come on out to enjoy this fun event and to help others around the world? 
             For more information about Lighthouse Christian Fellowship please visit our website at <a href = "http://www.lcfeb.net/">http://www.lcfeb.net/</a>
         </p>
+    </div>
+    </div>
+    </div>
     </>
     );
 

@@ -6,12 +6,12 @@ import Home from './components/home';
 import About from './components/about';
 import Faq from './components/faq';
 // import Register from './components/register';
-//import Header from './components/header';
 import Contact from './components/contact';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Footer from './components/footer';
 
 export default function App() {
   return (
@@ -44,8 +44,8 @@ export default function App() {
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Container className="justify-content-md-center">
-        <Row className=".align-items-start">
+        {/* <Container className="justify-content-md-center"> */}
+        {/* <Row className= "align-items-start"> */}
 
         <Switch>
           <Route path="/about">
@@ -61,10 +61,12 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-        </Row>
-        </Container>
+        {/* </Row> */}
+        {/* </Container> */}
       </div>
     </Router>
+    <Footer>
+    </Footer>
     </body>
     </>
   );
