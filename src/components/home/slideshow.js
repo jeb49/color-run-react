@@ -5,7 +5,7 @@ const styled = {
         "background-position": "center",
         "background-repeat": "no-repeat",
         "background-size": "cover",
-        "height": "91vh",
+        "height": "80vh",
 }
 
 export default function Slideshow() {
@@ -20,7 +20,7 @@ export default function Slideshow() {
     return (
 
 
-        <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} class = "jumbotron-fluid ">
+        <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} class = "jumbotron jumbotron-fluid ">
         <Carousel.Item  style = {styled}>
             <img
                 src={require("../images/one.jpg")}

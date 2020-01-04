@@ -32,7 +32,7 @@ export default function Home() {
                     </Card.Body>
                 </Card>
                 <Card>
-                <Card.Header>Hey!</Card.Header>  
+                <Card.Header>Where?</Card.Header>  
                     <Card.Body>
                     <Card.Text>
                             The Run/Walk will begin at the Community Arts Center located at 721 Cranbury Road in East Brunswick.
@@ -43,7 +43,7 @@ export default function Home() {
                     </Card.Body>
                 </Card>
                 <Card>
-                <Card.Header>Hey!</Card.Header>  
+                <Card.Header>Why?</Card.Header>  
                     <Card.Body>
                     <Card.Text>
                                 To Support Speed the Light. Speed the Light is an organization whose mission is to equip missionaries. 
