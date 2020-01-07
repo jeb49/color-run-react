@@ -1,0 +1,11 @@
+.footer {
+    background-image: url(../images/jumbotron.jpg);
+    background-color: rgb(60,60,60);
+    opacity: 0.80;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+
+}

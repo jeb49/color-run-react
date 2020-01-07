@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-const styled = {
-        "background-image": require("../images/one.jpg"),
+const style = {
+        "background-image": 'url("../images/one.jpg")',
         "background-position": "center",
         "background-repeat": "no-repeat",
         "background-size": "cover",
@@ -21,7 +21,7 @@ export default function Slideshow() {
 
 
         <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} class = "jumbotron jumbotron-fluid ">
-        <Carousel.Item  style = {styled}>
+        <Carousel.Item  style = {style}>
             <img
                 src={require("../images/one.jpg")}
                 alt="First slide"
@@ -31,7 +31,7 @@ export default function Slideshow() {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item  style = {styled}>
+        <Carousel.Item  style = {style}>
              <img
             src={require("../images/two.jpg")}
             alt="Second slide"
@@ -42,7 +42,7 @@ export default function Slideshow() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item  style = {styled}>
+        <Carousel.Item  style = {style}>
            <img
             src={require("../images/three.jpg")}
             alt="Third slide"
