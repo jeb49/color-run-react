@@ -138,10 +138,9 @@ export default function Home() {
     </div>
     
     </div>
-    <div class = "row">
-        {/* <iframe id="iframe_YTP_1578357502423" class="playerBox" style = {vidplayprops} frameborder="0" allowfullscreen="1" allow="accelerometer, autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/7_0GcEzuYeQ?modestbranding=1&amp;autoplay=0&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=iframe_YTP_1578357502423&amp;origin=https%3A%2F%2Fcolorfunruneb.com&amp;allowfullscreen=true&amp;wmode=transparent&amp;iv_load_policy=3&amp;html5=1&amp;widgetid=1" unselectable="on"></iframe> */} */}
+    <br></br>
+        {/* <iframe id="iframe_YTP_1578357502423" class="playerBox" style = {vidplayprops} frameborder="0" allowfullscreen="1" allow="accelerometer, autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/7_0GcEzuYeQ?modestbranding=1&amp;autoplay=0&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=iframe_YTP_1578357502423&amp;origin=https%3A%2F%2Fcolorfunruneb.com&amp;allowfullscreen=true&amp;wmode=transparent&amp;iv_load_policy=3&amp;html5=1&amp;widgetid=1" unselectable="on"></iframe> */} 
 
-    </div>
 
     </>
     );

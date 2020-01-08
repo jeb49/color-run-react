@@ -7,7 +7,8 @@ export default function About() {
     <div class = "row justify-content-md-center">
     <div class = "col ">
     <h2>About</h2>
-        <p>A Color Fun Run/Walk is an fun one day event. 
+        <hr ></hr>
+        <p >A Color Fun Run/Walk is an fun one day event. 
             Participants are doused with colored powder as they navigate the course.  
             Please see F.A.Q. page for specific details about the event.  
             All powder used is FDA approved.
@@ -27,8 +28,14 @@ export default function About() {
             Would you come on out to enjoy this fun event and to help others around the world? 
             For more information about Lighthouse Christian Fellowship please visit our website at <a href = "http://www.lcfeb.net/">http://www.lcfeb.net/</a>
         </p>
-    </div>
-    </div>
+        <hr></hr>
+        </div>
+        </div>
+        <br></br>
+        <div class ="rowcenter">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/JrUjjo-A3rI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/326390522" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
     </div>
     </>
     );

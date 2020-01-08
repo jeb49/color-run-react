@@ -1,5 +1,4 @@
 import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from './components/home';
@@ -20,11 +19,10 @@ export default function App() {
     <Router>
       <div >
       <Navbar style ={{background: "#333333"}} variant="dark" class="d-flex flex-row-reverse" >
-              <Nav.Link href="/" style = {{color: "white"}}>
-                <img src = {require('./components/images/logo.jpg')} style = {{height: "3.8rem"}} ></img> 
-                {/* <div class = "collumn"></div> */}
-                <b>Color Fun Run</b>
-                </Nav.Link>
+            <Nav.Link href="/" style = {{color: "white"}}>
+              <img src = {require('./components/images/logo.jpg')} style = {{height: "3.8rem"}} ></img> 
+              <b>Color Fun Run</b>
+            </Nav.Link>
             <Nav activeKey="/" >   
              <Nav.Item>
               <Nav.Link href="/about">About</Nav.Link>
@@ -35,18 +33,13 @@ export default function App() {
             <Nav.Item>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav.Item>
-            {/* <div class="d-flex flex-row-reverse" >
-            <Nav.Item class="d-flex flex-row-reverse">
+            <Nav.Item >
               <Nav.Link href="/register" class="p-2">Register</Nav.Link>
             </Nav.Item>
-            </div> */}
         </Nav>
         </Navbar>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        {/* <Container className="justify-content-md-center"> */}
-        {/* <Row className= "align-items-start"> */}
+
 
         <Switch>
           <Route path="/about">
@@ -62,8 +55,7 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-        {/* </Row> */}
-        {/* </Container> */}
+
       </div>
     </Router>
     <Footer>
