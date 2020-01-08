@@ -1,0 +1,10 @@
+.para {
+    background-image: url(../images/paralax.jpg);
+    background-position: "center";
+    background-repeat: "no-repeat";
+    min-height: 450px;
+    position: relative;
+    display: flex;
+    background-size: "cover";
+    /* height: "100vh"; */
+}

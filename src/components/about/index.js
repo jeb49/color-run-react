@@ -5,7 +5,7 @@ export default function About() {
     <>
     <div class = "container">
     <div class = "row justify-content-md-center">
-    <div class = "col ">
+    <div class = "col text-center">
     <h2>About</h2>
         <hr ></hr>
         <p >A Color Fun Run/Walk is an fun one day event. 

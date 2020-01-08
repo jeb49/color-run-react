@@ -18,7 +18,7 @@ export default function App() {
     <body>
     <Router>
       <div >
-      <Navbar style ={{background: "#333333"}} variant="dark" class="d-flex flex-row-reverse" >
+      <Navbar style ={{background: "#333333", position: "sticky"}} variant="dark"  >
             <Nav.Link href="/" style = {{color: "white"}}>
               <img src = {require('./components/images/logo.jpg')} style = {{height: "3.8rem"}} ></img> 
               <b>Color Fun Run</b>
