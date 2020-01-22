@@ -33,7 +33,11 @@ export default function About() {
         </div>
         <br></br>
         <div class ="rowcenter">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/JrUjjo-A3rI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <figure class = "align-center container">
+        <div class="video-block" style={{width: "66%"}}>
+            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/JrUjjo-A3rI?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+        </figure>
         <iframe src="https://player.vimeo.com/video/326390522" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
     </div>
